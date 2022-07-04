@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Web Group Chat</title>
+</head>
+<body>
+    <div class="content">
+        <div>
+            <p style="color: rgb(51, 226, 232); font-family:Orbitron">Welcome to Web Group Chat</p>
+            <h4 style="color: rgb(51, 226, 232); font-family:Orbitron">-> If room doesn't exist, new room will be created.</h4>
+            <h4 style="color: rgb(51, 226, 232); font-family:Orbitron">-> Input "random" as roomname to join random (maybe empty) room.</h4>
+            <br>
+            <form action="/room" method="POST">
+                <input type="text" placeholder="Enter your Name" class="username" name="username" required>
+                <input type="text" placeholder="Enter Room Name" class="roomname" name="roomname" required>
+                <input type="submit" value="Enter">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
